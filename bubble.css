@@ -112,20 +112,25 @@ html, body {
 }
 
 .startbtn {
-    width: 300px;
-    height: 150px;
+    width: 17vw;
+    height: 15vh;
     background-color: #223c52;
     color: cyan;
     border-radius: 100px;
-    font-size: 34px;
+    font-size: 2em;
     font-weight: 1000;
     border: 10px solid #081b29;
+    transition: 0.5s;
 }
 
 .startbtn:hover {
     background-color: aquamarine;
     cursor: pointer;
     color: #081b29;
-    font-weight: 1000;
-    font-size: 40px;
+    transform: translateY(-3vw);
+    width: 20vw;
+    height: 18vh;
+    font-size: 2.5em;
+    font-weight: 700;
+
 }
