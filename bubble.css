@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+}
+
+#panel {
+    overflow: hidden;
+    border-radius: 11px;
+    width: 80%;
+    height: 80%;
+    background-color: cyan;
+}
+
+#paneltop {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    color: antiquewhite;
+    padding: 0px 25%;
+    width: 100%;
+    height: 100px;
+    background-color: #235070;
+}
+
+.box {
+    border-radius: 6px;
+    padding: 10px 15px;
+    background-color: antiquewhite;
+    color: #235070;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.ele {
+    
+    display: flex;
+    align-items: center ;
+    gap: 16px;
+}
+
+.ele h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#panelbtm {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 15px;
+    
+}
+
+#panelbtm h1, h2 {
+    font-size: 30px;
+}
+
+.bubble {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #081b29;
+    color: antiquewhite;
+    border-radius: 50%;
+}
+
+.bubble:hover {
+    background-color: #235070;
+    cursor: pointer;
+}
+
+.btn {
+    width: 160px;
+    height: 100px;
+    background-color: #223c52;
+    color: cyan;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 10px solid #081b29;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    color: #081b29;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.startbtn {
+    width: 300px;
+    height: 150px;
+    background-color: #223c52;
+    color: cyan;
+    border-radius: 100px;
+    font-size: 34px;
+    font-weight: 1000;
+    border: 10px solid #081b29;
+}
+
+.startbtn:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    color: #081b29;
+    font-weight: 1000;
+    font-size: 40px;
+}
